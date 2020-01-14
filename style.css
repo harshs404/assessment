@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+{
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav ul {
+    margin: 0;
+}
+
+.main-nav li {
+    display: inline;
+}
+
+.main-nav a {
+    padding: .5em;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.main-nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-nav {
+    position: fixed;
+    width: 100%;
+    background-color: purple;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bolder;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-header {
+    background-image: url(https://wieckowski.files.wordpress.com/2014/05/dscn0197-edit.jpg?w=1024&h=238);
+    background size: cover;
+    opacity: 0.7;
+    padding-bottom: 30px;
+}
+
+.headername {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: "900px";
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    text-align: center;
+    font-family: Ubuntu;
+    color: #333 font-size: 2.5em;
+}
+
+.logo {
+    float: left;
+    height: 180px;
+    width: 400px;
+    margin: 15px;
+    border-radius: 80%;
+    -webkit-border-radius: 80%;
+    -moz-border-radius: 80%;
+    -ms-border-radius: 80%;
+    -o-border-radius: 80%;
+    padding: 0;
+}
+
+.about-image {
+    float: right;
+    margin: 15px;
+}
+
+.footername {
+    text-align: left;
+    margin: 15px;
+    font-size: 1.5em;
+}
+
+.main-footer {
+    background-color: purple;
+    color: azure;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+    display: inline;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.main-footer-container li {
+    padding: 0 1%;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    float: center;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    border: 2px solid #e40808;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header::hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.fixture-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.fixture-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tournament {
+    color: #555;
+    font-weight: bold;
+    width: 45%;
+}
+
+.home {
+    width: 40%;
+}
+
+.away {
+    width: 0%;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2D9CDB;
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+q```````````````````````````````````````````````````
